@@ -1,4 +1,25 @@
 body
 {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+}
+
+h1
+{
+    margin: 0 0 10px;
+}
+
+p
+{
+    margin: 0;
+}
+
+p + p
+{
+    margin-top: 10px;
+}
+
+.sharethis-inline-reaction-buttons
+{
+    margin-top: 20px;
 }
