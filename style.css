@@ -1,7 +1,15 @@
 body
 {
     font-family: 'Roboto', sans-serif;
-    margin: 10px;
+    padding: 10px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    overflow: hidden;
+    width: 750px;
+    height: 695px;
 }
 
 h1
@@ -22,4 +30,10 @@ p + p
 .sharethis-inline-reaction-buttons
 {
     margin-top: 20px;
+}
+
+.farewell-picture
+{
+    margin: 0 -10px;
+    text-align: center;
 }
